@@ -1,0 +1,19 @@
+{
+  "name": "low-level-design-practise",
+  "version": "1.0.0",
+  "description": "This is the practise repo, for practising the LLD principles, using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -w",
+    "start:dev": "concurrently \"npm run build\" \"nodemon ./dist/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  }
+}
